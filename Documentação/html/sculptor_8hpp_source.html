@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DOCUMENTAÃ‡ÃƒO ESCULTOR 3D - YOSHI: CÃ³digo-Fonte de headers/sculptor.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">DOCUMENTAÃ‡ÃƒO ESCULTOR 3D - YOSHI<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7f57b1e41c5acd0e859ae5f3a2b075a9.html">headers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">sculptor.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="sculptor_8hpp.html">VÃ¡ para a documentaÃ§Ã£o desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef SCULPTOR_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define SCULPTOR_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="voxel_8hpp.html">voxel.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="class_sculptor.html">    6</a></span><span class="keyword">class </span><a class="code hl_class" href="class_sculptor.html">Sculptor</a> {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_sculptor.html#a4ca53a2f2fbf41ca42dfe729ebe693f1">    8</a></span>  <a class="code hl_struct" href="struct_voxel.html">Voxel</a> ***<a class="code hl_variable" href="class_sculptor.html#a4ca53a2f2fbf41ca42dfe729ebe693f1">v</a>; <span class="comment">// ponteiro para ponteiro para ponteiro do tipo struct Voxel</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_sculptor.html#ad1e32f9042538419a3bc7b376f7813b8">   10</a></span>  <span class="keywordtype">int</span> <a class="code hl_variable" href="class_sculptor.html#ad1e32f9042538419a3bc7b376f7813b8">nx</a>,<a class="code hl_variable" href="class_sculptor.html#a1ce2ff97ec94927928ab3f5ec4ba6761">ny</a>,<a class="code hl_variable" href="class_sculptor.html#a33204e7df26a7ee4c7192381a24335d3">nz</a>; <span class="comment">// dimensões x,y e z da matriz</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_sculptor.html#a6fd0157dcf17582f0edd5fddf157604e">   11</a></span>  <span class="keywordtype">float</span> <a class="code hl_variable" href="class_sculptor.html#a3f5d2ec3b66d645019b8d81c810a1cd8">r</a>,<a class="code hl_variable" href="class_sculptor.html#a208c06af69a81a1568df4493868816f1">g</a>,<a class="code hl_variable" href="class_sculptor.html#a7aafd7305ea634252d8288b60536cd96">b</a>,<a class="code hl_variable" href="class_sculptor.html#a6fd0157dcf17582f0edd5fddf157604e">a</a>; <span class="comment">// define as cores vermelho, verde e azul para cada voxel, e transparencia</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="class_sculptor.html#ad02ac5852d652f57b81d4377a5f55568">   12</a></span>  <span class="keywordtype">float</span> <a class="code hl_variable" href="class_sculptor.html#ad02ac5852d652f57b81d4377a5f55568">fix</a>; <span class="comment">//variável de valor fixo para auxilio da construção do arquivo .off</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="class_sculptor.html#a014e3ef5517bf0e9d9e14486b6ac6433">   15</a></span>  <a class="code hl_function" href="class_sculptor.html#a014e3ef5517bf0e9d9e14486b6ac6433">Sculptor</a>(<span class="keywordtype">int</span> _nx, <span class="keywordtype">int</span> _ny, <span class="keywordtype">int</span> _nz); <span class="comment">//construtor responsável por iniciar classe</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_sculptor.html#a8f159bf97458326f16d2e238e11be7ff">   16</a></span>  <a class="code hl_function" href="class_sculptor.html#a8f159bf97458326f16d2e238e11be7ff">~Sculptor</a>(); <span class="comment">// destrutor da classe</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_sculptor.html#af1d69da01379874b0dfd6454787cb562">   18</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_sculptor.html#af1d69da01379874b0dfd6454787cb562">setColor</a>(<span class="keywordtype">float</span> <a class="code hl_variable" href="class_sculptor.html#a3f5d2ec3b66d645019b8d81c810a1cd8">r</a>, <span class="keywordtype">float</span> <a class="code hl_variable" href="class_sculptor.html#a208c06af69a81a1568df4493868816f1">g</a>, <span class="keywordtype">float</span> <a class="code hl_variable" href="class_sculptor.html#a7aafd7305ea634252d8288b60536cd96">b</a>, <span class="keywordtype">float</span> alpha); <span class="comment">// se refere a seleção de cor</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_sculptor.html#a4bdea3048b419d58e93074060eaa7b52">   19</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_sculptor.html#a4bdea3048b419d58e93074060eaa7b52">putVoxel</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> z); <span class="comment">// se refere a ativação de um voxel em (x,y,z)</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="class_sculptor.html#ad9d714a35fc8ae16d06eb5df37c3493c">   20</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_sculptor.html#ad9d714a35fc8ae16d06eb5df37c3493c">cutVoxel</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> z); <span class="comment">// se refere a desativação de um voxel em (x,y,z)</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_sculptor.html#a23b6dd220bdbd4ffad597e0b7ce16040">   22</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="class_sculptor.html#a23b6dd220bdbd4ffad597e0b7ce16040">getx</a>();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_sculptor.html#a2cb7a3b5652036b9ecf6785d9a62579a">   23</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="class_sculptor.html#a2cb7a3b5652036b9ecf6785d9a62579a">gety</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_sculptor.html#ab56b7fe79d9c3ee44c3f57e845d2a702">   24</a></span>  <span class="keywordtype">int</span> <a class="code hl_function" href="class_sculptor.html#ab56b7fe79d9c3ee44c3f57e845d2a702">getz</a>();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_sculptor.html#a58cb72d22001a5034f15383ca983830c">   26</a></span>  <span class="keywordtype">void</span> <a class="code hl_function" href="class_sculptor.html#a58cb72d22001a5034f15383ca983830c">writeOFF</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* filename);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>};</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_sculptor_html"><div class="ttname"><a href="class_sculptor.html">Sculptor</a></div><div class="ttdef"><b>Definition:</b> sculptor.hpp:6</div></div>
+<div class="ttc" id="aclass_sculptor_html_a014e3ef5517bf0e9d9e14486b6ac6433"><div class="ttname"><a href="class_sculptor.html#a014e3ef5517bf0e9d9e14486b6ac6433">Sculptor::Sculptor</a></div><div class="ttdeci">Sculptor(int _nx, int _ny, int _nz)</div></div>
+<div class="ttc" id="aclass_sculptor_html_a1ce2ff97ec94927928ab3f5ec4ba6761"><div class="ttname"><a href="class_sculptor.html#a1ce2ff97ec94927928ab3f5ec4ba6761">Sculptor::ny</a></div><div class="ttdeci">int ny</div><div class="ttdef"><b>Definition:</b> sculptor.hpp:10</div></div>
+<div class="ttc" id="aclass_sculptor_html_a208c06af69a81a1568df4493868816f1"><div class="ttname"><a href="class_sculptor.html#a208c06af69a81a1568df4493868816f1">Sculptor::g</a></div><div class="ttdeci">float g</div><div class="ttdef"><b>Definition:</b> sculptor.hpp:11</div></div>
+<div class="ttc" id="aclass_sculptor_html_a23b6dd220bdbd4ffad597e0b7ce16040"><div class="ttname"><a href="class_sculptor.html#a23b6dd220bdbd4ffad597e0b7ce16040">Sculptor::getx</a></div><div class="ttdeci">int getx()</div></div>
+<div class="ttc" id="aclass_sculptor_html_a2cb7a3b5652036b9ecf6785d9a62579a"><div class="ttname"><a href="class_sculptor.html#a2cb7a3b5652036b9ecf6785d9a62579a">Sculptor::gety</a></div><div class="ttdeci">int gety()</div></div>
+<div class="ttc" id="aclass_sculptor_html_a33204e7df26a7ee4c7192381a24335d3"><div class="ttname"><a href="class_sculptor.html#a33204e7df26a7ee4c7192381a24335d3">Sculptor::nz</a></div><div class="ttdeci">int nz</div><div class="ttdef"><b>Definition:</b> sculptor.hpp:10</div></div>
+<div class="ttc" id="aclass_sculptor_html_a3f5d2ec3b66d645019b8d81c810a1cd8"><div class="ttname"><a href="class_sculptor.html#a3f5d2ec3b66d645019b8d81c810a1cd8">Sculptor::r</a></div><div class="ttdeci">float r</div><div class="ttdef"><b>Definition:</b> sculptor.hpp:11</div></div>
+<div class="ttc" id="aclass_sculptor_html_a4bdea3048b419d58e93074060eaa7b52"><div class="ttname"><a href="class_sculptor.html#a4bdea3048b419d58e93074060eaa7b52">Sculptor::putVoxel</a></div><div class="ttdeci">void putVoxel(int x, int y, int z)</div></div>
+<div class="ttc" id="aclass_sculptor_html_a4ca53a2f2fbf41ca42dfe729ebe693f1"><div class="ttname"><a href="class_sculptor.html#a4ca53a2f2fbf41ca42dfe729ebe693f1">Sculptor::v</a></div><div class="ttdeci">Voxel *** v</div><div class="ttdef"><b>Definition:</b> sculptor.hpp:8</div></div>
+<div class="ttc" id="aclass_sculptor_html_a58cb72d22001a5034f15383ca983830c"><div class="ttname"><a href="class_sculptor.html#a58cb72d22001a5034f15383ca983830c">Sculptor::writeOFF</a></div><div class="ttdeci">void writeOFF(const char *filename)</div></div>
+<div class="ttc" id="aclass_sculptor_html_a6fd0157dcf17582f0edd5fddf157604e"><div class="ttname"><a href="class_sculptor.html#a6fd0157dcf17582f0edd5fddf157604e">Sculptor::a</a></div><div class="ttdeci">float a</div><div class="ttdef"><b>Definition:</b> sculptor.hpp:11</div></div>
+<div class="ttc" id="aclass_sculptor_html_a7aafd7305ea634252d8288b60536cd96"><div class="ttname"><a href="class_sculptor.html#a7aafd7305ea634252d8288b60536cd96">Sculptor::b</a></div><div class="ttdeci">float b</div><div class="ttdef"><b>Definition:</b> sculptor.hpp:11</div></div>
+<div class="ttc" id="aclass_sculptor_html_a8f159bf97458326f16d2e238e11be7ff"><div class="ttname"><a href="class_sculptor.html#a8f159bf97458326f16d2e238e11be7ff">Sculptor::~Sculptor</a></div><div class="ttdeci">~Sculptor()</div></div>
+<div class="ttc" id="aclass_sculptor_html_ab56b7fe79d9c3ee44c3f57e845d2a702"><div class="ttname"><a href="class_sculptor.html#ab56b7fe79d9c3ee44c3f57e845d2a702">Sculptor::getz</a></div><div class="ttdeci">int getz()</div></div>
+<div class="ttc" id="aclass_sculptor_html_ad02ac5852d652f57b81d4377a5f55568"><div class="ttname"><a href="class_sculptor.html#ad02ac5852d652f57b81d4377a5f55568">Sculptor::fix</a></div><div class="ttdeci">float fix</div><div class="ttdef"><b>Definition:</b> sculptor.hpp:12</div></div>
+<div class="ttc" id="aclass_sculptor_html_ad1e32f9042538419a3bc7b376f7813b8"><div class="ttname"><a href="class_sculptor.html#ad1e32f9042538419a3bc7b376f7813b8">Sculptor::nx</a></div><div class="ttdeci">int nx</div><div class="ttdef"><b>Definition:</b> sculptor.hpp:10</div></div>
+<div class="ttc" id="aclass_sculptor_html_ad9d714a35fc8ae16d06eb5df37c3493c"><div class="ttname"><a href="class_sculptor.html#ad9d714a35fc8ae16d06eb5df37c3493c">Sculptor::cutVoxel</a></div><div class="ttdeci">void cutVoxel(int x, int y, int z)</div></div>
+<div class="ttc" id="aclass_sculptor_html_af1d69da01379874b0dfd6454787cb562"><div class="ttname"><a href="class_sculptor.html#af1d69da01379874b0dfd6454787cb562">Sculptor::setColor</a></div><div class="ttdeci">void setColor(float r, float g, float b, float alpha)</div></div>
+<div class="ttc" id="astruct_voxel_html"><div class="ttname"><a href="struct_voxel.html">Voxel</a></div><div class="ttdef"><b>Definition:</b> voxel.hpp:5</div></div>
+<div class="ttc" id="avoxel_8hpp_html"><div class="ttname"><a href="voxel_8hpp.html">voxel.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>
