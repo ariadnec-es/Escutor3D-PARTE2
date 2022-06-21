@@ -1,0 +1,227 @@
+# depslib dependency file v1.0
+1654068054 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\projeto\main.cpp
+	<iostream>
+	"sculptor.hpp"
+
+1654068699 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\projeto\sculptor.hpp
+	"voxel.hpp"
+
+1654068862 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\projeto\voxel.hpp
+	"Voxel.hpp"
+
+1655601910 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\main.cpp
+	<iostream>
+	"sculptor.hpp"
+
+1654068699 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\sculptor.hpp
+	"voxel.hpp"
+
+1654068862 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\voxel.hpp
+	"Voxel.hpp"
+
+1654070645 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - projeto 1\projeto\sculptor.cpp
+	<iostream>
+	<cstdlib>
+	<vector>
+	<fstream>
+	<cmath>
+	"sculptor.hpp"
+
+1654070645 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2\projeto-parte-2\sculptor.cpp
+	<iostream>
+	<cstdlib>
+	<vector>
+	<fstream>
+	<cmath>
+	"sculptor.hpp"
+
+1654068699 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2\projeto-parte-2\sculptor.hpp
+	"voxel.hpp"
+
+1654068862 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2\projeto-parte-2\voxel.hpp
+	"Voxel.hpp"
+
+1655662422 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sculptor.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<cmath>
+	<vector>
+	"sculptor.hpp"
+
+1655660646 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sculptor.hpp
+	"voxel.hpp"
+
+1654068862 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\voxel.hpp
+	"Voxel.hpp"
+
+1655659506 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\cutellipsoid.cpp
+	"cutEllipsoid.hpp"
+
+1655659441 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\cutellipsoid.hpp
+	"figurageometrica.hpp"
+
+1655655116 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\figurageometrica.hpp
+	"sculptor.hpp"
+
+1655660646 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\sculptor.hpp
+	"voxel.hpp"
+
+1655664635 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\voxel.hpp
+	"Voxel.hpp"
+
+1655658975 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\cutsphere.cpp
+	"cutSphere.hpp"
+
+1655658851 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\cutsphere.hpp
+	"figurageometrica.hpp"
+
+1655658307 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\cutbox.cpp
+	"cutBox.hpp"
+
+1655661788 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\cutbox.hpp
+	"figurageometrica.hpp"
+
+1655657251 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\cutvoxel.cpp
+	"cutVoxel.hpp"
+
+1655661805 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\cutvoxel.hpp
+	"figurageometrica.hpp"
+
+1655654880 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\figurageometrica.cpp
+	"figurageometrica.hpp"
+
+1655661912 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\putbox.cpp
+	"putBox.hpp"
+
+1655661845 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\putbox.hpp
+	"figurageometrica.hpp"
+
+1655659308 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\putellipsoid.cpp
+	"putEllipsoid.hpp"
+	"sculptor.hpp"
+	"interpretador.hpp"
+
+1655659118 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\putellipsoid.hpp
+	"figurageometrica.hpp"
+
+1655662115 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\interpretador.hpp
+	<vector>
+	<string>
+	"figurageometrica.hpp"
+
+1655658709 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\putsphere.cpp
+	"putSphere.hpp"
+
+1655660205 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\putsphere.hpp
+	"figurageometrica.hpp"
+
+1655662129 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"voxel.hpp"
+	"sculptor.hpp"
+	"figurageometrica.hpp"
+	"interpretador.hpp"
+	"putVoxel.hpp"
+	"cutVoxel.hpp"
+	"putBox.hpp"
+	"cutBox.hpp"
+	"putSphere.hpp"
+	"cutSphere.hpp"
+	"putEllipsoid.hpp"
+	"cutEllipsoid.hpp"
+
+1655662059 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\headers\putvoxel.hpp
+	"figurageometrica.hpp"
+	"sculptor.hpp"
+
+1655656492 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\putvoxel.cpp
+	"putVoxel.hpp"
+
+1655662253 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\interpretador.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	"putVoxel.hpp"
+	"cutVoxel.hpp"
+	"putBox.hpp"
+	"cutBox.hpp"
+	"putSphere.hpp"
+	"cutSphere.hpp"
+	"putEllipsoid.hpp"
+	"cutEllipsoid.hpp"
+	"interpretador.hpp"
+
+1655661788 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\cutbox.hpp
+	"figurageometrica.hpp"
+
+1655655116 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\figurageometrica.hpp
+	"sculptor.hpp"
+
+1655660646 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\sculptor.hpp
+	"voxel.hpp"
+
+1654068862 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\voxel.hpp
+	"Voxel.hpp"
+
+1655659441 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\cutellipsoid.hpp
+	"figurageometrica.hpp"
+
+1655658851 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\cutsphere.hpp
+	"figurageometrica.hpp"
+
+1655661805 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\cutvoxel.hpp
+	"figurageometrica.hpp"
+
+1655662059 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\putvoxel.hpp
+	"figurageometrica.hpp"
+	"sculptor.hpp"
+
+1655661845 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\putbox.hpp
+	"figurageometrica.hpp"
+
+1655660205 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\putsphere.hpp
+	"figurageometrica.hpp"
+
+1655659118 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\putellipsoid.hpp
+	"figurageometrica.hpp"
+
+1655662115 c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\interpretador.hpp
+	<vector>
+	<string>
+	"figurageometrica.hpp"
+
+1655664325 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	"voxel.hpp"
+	"sculptor.hpp"
+	"figurageometrica.hpp"
+	"interpretador.hpp"
+	"putVoxel.hpp"
+	"cutVoxel.hpp"
+	"putBox.hpp"
+	"cutBox.hpp"
+	"putSphere.hpp"
+	"cutSphere.hpp"
+	"putEllipsoid.hpp"
+	"cutEllipsoid.hpp"
+
+1655665214 source:c:\users\mathe\onedrive\documentos\desenvolvimento\programaÇÃo avanÇada\unidade 2 - final\projeto-parte-2\sources\sculptor.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	<cmath>
+	<vector>
+	"sculptor.hpp"
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projeto" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="projeto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:/Users/mathe/OneDrive/Documentos/Desenvolvimento/PROGRAMAÇÃO AVANÇADA/UNIDADE 2 - PROJETO 1/projeto/projeto/.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="headers" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="projeto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:/Users/mathe/OneDrive/Documentos/Desenvolvimento/PROGRAMAÇÃO AVANÇADA/UNIDADE 2 - PROJETO 1/projeto/projeto/.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="headers" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="headers/cutBox.hpp" />
+		<Unit filename="headers/cutEllipsoid.hpp" />
+		<Unit filename="headers/cutSphere.hpp" />
+		<Unit filename="headers/cutVoxel.hpp" />
+		<Unit filename="headers/figurageometrica.hpp" />
+		<Unit filename="headers/interpretador.hpp" />
+		<Unit filename="headers/putBox.hpp" />
+		<Unit filename="headers/putEllipsoid.hpp" />
+		<Unit filename="headers/putSphere.hpp" />
+		<Unit filename="headers/putVoxel.hpp" />
+		<Unit filename="headers/sculptor.hpp" />
+		<Unit filename="headers/voxel.hpp" />
+		<Unit filename="sources/cutBox.cpp" />
+		<Unit filename="sources/cutEllipsoid.cpp" />
+		<Unit filename="sources/cutSphere.cpp" />
+		<Unit filename="sources/cutVoxel.cpp" />
+		<Unit filename="sources/figurageometrica.cpp" />
+		<Unit filename="sources/interpretador.cpp" />
+		<Unit filename="sources/main.cpp" />
+		<Unit filename="sources/putBox.cpp" />
+		<Unit filename="sources/putEllipsoid.cpp" />
+		<Unit filename="sources/putSphere.cpp" />
+		<Unit filename="sources/putVoxel.cpp" />
+		<Unit filename="sources/sculptor.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
